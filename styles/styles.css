@@ -87,6 +87,63 @@ main {
 .team-content {
   padding: 0 50px;
 }
+
+/* feature section  */
+.feature {
+  display: flex;
+  justify-content: space-between;
+}
+.feature-content {
+  width: 35%;
+}
+.feature-container {
+  padding: 30px;
+  box-sizing: border-box;
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.06);
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.feature-title {
+  font-size: 45px;
+  margin-bottom: 24px;
+}
+.feature-description {
+  margin-bottom: 30px;
+}
+.feature-name {
+  font-size: 20px;
+  font-weight: 400;
+}
+.architect-container {
+  width: 800px;
+  height: 1059px;
+  position: relative;
+}
+.architect-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.img-architect {
+  width: 708px;
+  height: 982px;
+}
+.architect-experience {
+  color: white;
+  background-color: rgb(255, 144, 14);
+  text-align: center;
+  padding: 46px 42px;
+  width: 342px;
+  height: 200px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 859px;
+  z-index: 10;
+}
+.year {
+  font-size: 4rem;
+}
 /* responsive media queries */
 @media screen and (min-width: 576px) and (max-width: 960px) {
   nav {
