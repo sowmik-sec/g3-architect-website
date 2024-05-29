@@ -105,6 +105,7 @@ main {
   }
   .team-content {
     width: 95%;
+    padding: 20px;
   }
 }
 
@@ -132,5 +133,6 @@ main {
   }
   .team-content {
     width: 95%;
+    padding: 20px;
   }
 }
