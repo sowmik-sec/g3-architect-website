@@ -30,3 +30,26 @@ ul > li {
   color: rgb(66, 66, 66);
   font-weight: 500;
 }
+.banner {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.banner h3 {
+  font-size: 4rem;
+}
+.btn-primary {
+  background-color: rgb(255, 144, 14);
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  padding: 20px 25px;
+  border: 0;
+}
+.img-banner {
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.img-banner img {
+  width: 100%;
+}
