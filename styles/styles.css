@@ -146,6 +146,7 @@ main {
 .year {
   font-size: 4rem;
 }
+/* fact section  */
 .fact-content {
   display: flex;
   justify-content: space-around;
@@ -160,6 +161,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 20px auto;
 }
 /* responsive media queries */
 @media screen and (min-width: 576px) and (max-width: 960px) {
@@ -187,6 +189,11 @@ main {
   .feature-content {
     width: 95%;
     margin: 0 auto;
+  }
+  .fact-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
 }
 
@@ -222,5 +229,8 @@ main {
   .feature-content {
     width: 95%;
     margin: 0 auto;
+  }
+  .fact-content {
+    flex-direction: column;
   }
 }
