@@ -55,3 +55,27 @@ ul > li {
 .img-banner img {
   width: 100%;
 }
+
+/* responsive media queries */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  nav {
+    padding: 50px;
+    flex-direction: column;
+  }
+  .banner {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  nav {
+    padding: 20px;
+    flex-direction: column;
+  }
+  /* .nav-link {
+    flex-direction: column;
+  } */
+  .banner {
+    width: 85%;
+  }
+}
