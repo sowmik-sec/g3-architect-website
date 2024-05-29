@@ -164,6 +164,13 @@ main {
     width: 95%;
     padding: 20px;
   }
+  .feature {
+    flex-direction: column;
+  }
+  .feature-content {
+    width: 95%;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -191,5 +198,12 @@ main {
   .team-content {
     width: 95%;
     padding: 20px;
+  }
+  .feature {
+    flex-direction: column;
+  }
+  .feature-content {
+    width: 95%;
+    margin: 0 auto;
   }
 }
