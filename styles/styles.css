@@ -96,6 +96,16 @@ main {
   .banner {
     width: 75%;
   }
+  .team-container {
+    flex-direction: column;
+    width: 98%;
+  }
+  .img-team {
+    width: 95%;
+  }
+  .team-content {
+    width: 95%;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -108,5 +118,19 @@ main {
   } */
   .banner {
     width: 85%;
+  }
+  .team-container {
+    flex-direction: column;
+    width: 98%;
+  }
+  .img-team {
+    width: 95%;
+    grid-template-columns: 1fr;
+  }
+  .img-team img {
+    margin: 0 auto;
+  }
+  .team-content {
+    width: 95%;
   }
 }
