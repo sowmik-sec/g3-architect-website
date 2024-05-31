@@ -177,6 +177,14 @@ main {
   width: 166px;
   margin: 0 auto 50px;
 }
+footer {
+  background-color: rgb(255, 244, 231);
+  padding: 39px;
+  box-sizing: border-box;
+  max-width: 1440px;
+  border-radius: 8px;
+  margin: 0 auto 100px;
+}
 /* responsive media queries */
 @media screen and (min-width: 576px) and (max-width: 960px) {
   nav {
