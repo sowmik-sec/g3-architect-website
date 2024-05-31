@@ -163,6 +163,20 @@ main {
   flex-direction: column;
   margin: 20px auto;
 }
+.sponsor-text {
+  width: 50%;
+  margin: 0 auto 50px;
+  text-align: center;
+}
+.sponsors {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-bottom: 80px;
+}
+.sponsors img {
+  width: 166px;
+  margin: 0 auto 50px;
+}
 /* responsive media queries */
 @media screen and (min-width: 576px) and (max-width: 960px) {
   nav {
@@ -194,6 +208,9 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+  }
+  .sponsors {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -232,5 +249,8 @@ main {
   }
   .fact-content {
     flex-direction: column;
+  }
+  .sponsors {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
